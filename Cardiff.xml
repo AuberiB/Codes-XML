@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+         
+         
+         
+            <listWit>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>859</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+              <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>860</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               
+                
+                
+                <witness xml:id="R">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Vaticane</settlement>
+                        <collection>reg lat</collection>
+                        <idno>1461</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+                
+                
+                
+                <witness xml:id="H">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <collection>gall</collection>
+                        <idno>48</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               <witness xml:id="c">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Cardiff</settlement>
+                        <collection>Library</collection>
+                        <idno>1</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               
+               
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        
+        <l>
+        
+        <l n="1">
+           
+            <app type="omission">
+             <rdg wit="#B #H #R"></rdg>
+             
+            <rdg wit="#c #C">
+            <app type="lexical">
+            <rdg wit="#C">l'or d'Estampois</rdg>
+            <rdg wit="#c">.I. estampois</rdg>
+            </app>
+            </rdg>
+           </app>
+           
+           </l>
+           
+           
+           
+           
+           
+           
+           <l n="2">
+           
+            <app type="lexical">
+            <rdg wit="#B #R">mener sordois</rdg>
+            <rdg wit="#c #C #H">mener bofois</rdg>
+           </app>
+           </l>
+           
+           
+           
+           
+           <l n="3">
+           <app type="lexical">
+              <rdg wit="#H #c #R">J’en ai .VII.M.</rdg>
+              <rdg wit="#B">J’en ai .V.M.</rdg>
+              <rdg wit="#C">J’en ai .V.C.</rdg>
+           </app>
+           
+           
+           </l>
+           
+           
+           
+           <l n="4">
+           <app type="omission">
+              <rdg wit ="#c">Ge le ferrai sans point d’arrestement</rdg>
+              <rdg wit="#B #C #H #R"></rdg>
+           </app>
+           </l>
+           
+           
+           
+            <l n="4">
+           <app type="omission">
+             <rdg wit="#c">Li quens le vit mout s’en va merveillant</rdg>
+              <rdg wit="#B #C #H #R"></rdg>
+           </app> 
+           </l>
+           
+           
+           
+           
+           <l n="5">
+           
+           <app type="lexical">
+              <rdg wit="#c">grant pitié l’en prent</rdg>
+              <rdg wit="#C #H #R">pitié de l'anfant</rdg>
+              <rdg wit="#B">pité grant</rdg>
+           </app>
+           
+           </l>
+           
+           
+           
+           
+           
+            <l n="6">
+           
+           <app type="sémantique">
+              <rdg wit="#B #H #R">si tres pensant</rdg>
+             <rdg wit="#c #C">
+             <app type="lexical">
+             <rdg wit="#C">le hardi combatant</rdg>
+             <rdg wit="c">si puissant</rdg>
+             </app> 
+             </rdg>
+           </app>
+           
+           </l>
+           
+           
+           
+           
+           <l n="7">
+           
+           <app type="sémantique">
+           <rdg wit="#B #H #R">tenchasse et le cuer et le pis</rdg>
+           
+           
+           <rdg wit="#c #C">
+           <app type="lexical">
+           <rdg wit="#C">decopez et</rdg>
+           <rdg wit="#c">detenuz ne</rdg>
+           </app>
+           ocis </rdg>
+           </app>
+           </l>
+           
+           
+           
+           
+           <l n="8">
+           
+           <app type="morphologique">
+           <rdg wit="#B #c #H #R">
+           <app type="graphique">
+           <rdg wit="#B">XXVI</rdg>
+           <rdg wit="#c #H #R">XXXVI</rdg>
+           </app>
+           </rdg>
+           
+           <rdg wit="#C">LX et dis</rdg>
+           </app>
+           
+           </l>
+          
+           
+           
+           
+           
+           <l n="9">
+           
+            <app type="lexical">
+            <rdg wit="#B #R #H">honis</rdg>
+            <rdg wit="#c #C">maumis</rdg>
+           </app>
+           </l>
+           
+           
+           
+           
+           <l n="10">
+           
+            <app type="lexical">
+            <rdg wit="#B #R #H">cortois</rdg>
+            <rdg wit="#c #C">adrois</rdg>
+           </app>
+           </l>
+           
+           
+           
+           
+           <l n="11">
+           
+            <app type="lexical">
+            <rdg wit="#B #R #H">biaus</rdg>
+            <rdg wit="#c #C">bon</rdg>
+           </app>
+           </l>
+            
+           
+           <l n="12">
+           <app type="omission">
+              <rdg wit="#C #B">Il m'est avis qu'il font de noz gabois</rdg>
+              <rdg wit="#H #c #R"></rdg>
+           </app>
+           </l>
+           
+           
+           <l n="13">
+           <app type="lexical">
+              <rdg wit="#c #C">.C. chevaliers. cortois</rdg>
+              <rdg wit="#B #H #R">.C. chevaliers franchois</rdg>
+           </app>
+           </l>
+           
+           
+           
+           
+           
+           
+           <l n="14">
+           <app type="lexical">
+              <rdg wit="#c #C">Franchois</rdg>
+              <rdg wit="#B #H #R">de Blois</rdg>
+           </app>
+           </l>
+           
+           
+           <l n="15">
+           
+            <app type="sémantique">
+              <rdg wit="#C #R">Or sachiés bien</rdg>
+              <rdg  wit="#H">Si m’ait</rdg>
+              
+              <rdg wit="#B #c">Que nos ferons
+              <app type="sémantique">
+              <rdg wit="#B">trestot a vos voloirs</rdg>
+              <rdg wit="#c">Que nos ferons toz vos bons demanois</rdg>
+           </app>
+           </rdg>
+           </app>
+           </l>
+            
+           <l n="16">
+           <app type="lexical">
+           <rdg wit="#c #H #R">droitement</rdg>
+           <rdg wit="#B">erraument</rdg>
+           <rdg wit="#C">devant</rdg>
+           </app>
+           </l>
+           
+           
+           <l n="17">
+           <app type="sémantique">
+           <rdg wit="#c #H">et Gefrois</rdg>
+           <rdg wit="#B #R">et ses niés</rdg>
+           <rdg wit="#C"></rdg>
+           </app>
+           </l>
+           
+           
+           <l n="18">
+           <app type="lexical">
+           <rdg wit="#B">malmis</rdg>
+           <rdg wit="#C #H #R">ocis</rdg>
+           </app>
+           </l>
+           
+           
+           
+           <l n="19">
+           <app type="lexical">
+           <rdg wit="#B">grant terre</rdg>
+           <rdg wit="#C #H #R">.IIII. chastiaus</rdg>
+           </app>
+           </l>
+           
+           
+           <l n="20">
+           <app type="omission">
+           <rdg wit="#B #H"></rdg>
+           <rdg wit="#C #R">Et murs et mules</rdg>
+           </app>
+           </l>
+           
+           
+            <l n="21">
+           <app type="lexical">
+           <rdg wit="#B #H">chevaliers eslis</rdg>
+           <rdg wit="#C #R">chevaliers de pris</rdg>
+           </app>
+           </l>
+           
+           
+            <l n="22">
+           <app type="lexical">
+           <rdg wit="#B #R">serés servis</rdg>
+           <rdg wit="#C #H">a vostre devis</rdg>
+           </app>
+           </l>
+           
+           
+            <l n="23">
+           <app type="lexical">
+           <rdg wit="#B #R">carneus amis</rdg>
+           <rdg wit="#C #H">vassaus de pris</rdg>
+           </app>
+           </l>
+           
+           
+           <l n="24">
+           <app type="sémantique">
+           <rdg wit="#B">en trestot lor aé</rdg>
+           <rdg wit="#C #H #R">ainsiz l'ont creanté</rdg>
+           </app>
+           </l>
+           
+        </l>
+        
+        
+      </body>
+   </text>
+</TEI>
