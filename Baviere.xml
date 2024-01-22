@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+         
+         
+         
+            <listWit>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>859</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+              <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>860</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               <witness xml:id="T">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>24368</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+                
+                
+                <witness xml:id="R">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Vaticane</settlement>
+                        <collection>reg lat</collection>
+                        <idno>1461</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+                
+                
+                
+                <witness xml:id="H">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <collection>gall</collection>
+                        <idno>48</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   
+   
+   
+   
+  <text>
+    <body>
+   
+   
+   
+   
+   <l n="1">
+   <app type="absence">
+   <rdg wit="#B #T"></rdg>
+   <rdg wit="#H #C #R">Sire Guibert franc chevaliers isnel</rdg>
+   </app>
+   </l>
+   
+   
+   <l n="2">
+   <app type="absence">
+   <rdg wit="#B #T"></rdg>
+   <rdg wit="#H #C #R">Tant mar veistez Auberi le donzel</rdg>
+   </app>
+   </l>
+   
+   
+   <l n="4">
+   <app type="absence">
+   <rdg wit="#B #T"></rdg>
+   <rdg wit="#H #C #R">Pour soie amour gisiez mors an prael</rdg>
+   </app>
+   </l>
+   
+   
+   <l n="5">
+   <app type="sémantique">
+   <rdg wit="#B #T #R">maint</rdg>
+   
+   <rdg wit="#H #C">
+   <app type="lexical">
+   <rdg wit="#H">rois</rdg>
+   <rdg wit="#C">acerins</rdg>
+   </app>
+   </rdg>
+   </app>
+   </l>
+   
+   
+   <l n="6">
+   <app type="absence">
+   <rdg wit="#B #T"></rdg>
+   
+   <rdg wit="#H #C #R">
+   <app type="lexical">
+   <rdg wit="#H #R">Qui le secors lor amena si grant</rdg>
+   <rdg wit="#C">C’est cil qu’au duc amena si grant jant</rdg>
+   </app>
+   </rdg>
+   </app>
+   </l>
+   
+   
+   
+   <l n="7">
+   <app type="absence">
+   <rdg wit="#B #T #H"></rdg>
+   
+   <rdg wit="#C #R">
+   <app type="lexical">
+   <rdg wit="#R">Et qui aloit Sarrasins enchausant</rdg>
+   <rdg wit="#C">Et qui les Turs aloit si porsuivant</rdg>
+   </app>
+   </rdg>
+   </app>
+   </l>
+   
+   
+   <l n="8">
+   <app type="lexical">
+   <rdg wit="#B #T">livrer</rdg>
+   <rdg wit="#H #C #R">garder</rdg>
+   </app>
+   </l>
+   
+   
+   
+    <l n="9">
+   <app type="lexical">
+   <rdg wit="#B #T">Es plus espees</rdg>
+   <rdg wit="#H #C #R">As Sarrasins</rdg>
+   </app>
+    </l>
+    
+    
+    <l n="10">
+   <app type="lexical">
+   <rdg wit="#B #T #H">fier</rdg>
+   <rdg wit="#C #R">un</rdg>
+   </app>
+    </l>
+    
+    
+    
+    <l n="12">
+   <app type="lexical">
+   <rdg wit="#B #T">partie</rdg>
+   
+   <rdg wit="#C #R">
+   <app type="graphique">
+   <rdg wit="#R">avant garde</rdg>
+   <rdg wit="#C">angarde</rdg>
+   </app>
+   </rdg>
+   
+   <rdg wit="#H"></rdg>
+   </app>
+    </l>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+  </text>
+</TEI>
