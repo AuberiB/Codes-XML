@@ -1,0 +1,1759 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- supply a title --></title>
+      </titleStmt>
+      <publicationStmt>
+        <p><!-- supply publication information --></p>
+      </publicationStmt>
+      <sourceDesc>
+      
+      <listWit>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>859</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+              <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>860</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               <witness xml:id="T">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>24368</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+                
+                
+                <witness xml:id="R">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Vaticane</settlement>
+                        <collection>reg lat</collection>
+                        <idno>1461</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               <witness xml:id="H">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                          <collection>gall. qu.</collection>
+                        <idno>48</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               
+            </listWit>
+      
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+    
+    <l n="1">
+      <rdg wit="#B #T #C #H #R">Entre ses bras</rdg>
+      
+      <app type="lexical">
+      
+      <rdg wit="#R #H #C">
+      <app type="morphologique">
+      <rdg wit="#R">l'enbraca</rdg>
+      <rdg wit="#H #C">l'enbrace</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#B #T">l'acola</rdg>
+      </app>
+      
+      
+      <app type="lexical">
+      <rdg wit="#B #T">doucement</rdg>
+     <rdg wit="#R #H #C">maintenant</rdg>
+      </app>
+      </l>
+      
+      
+      
+      <l n="2">
+      <rdg wit="#B #T #C #H #R">Viande aures</rdg>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #H #R">ja</rdg>
+      <rdg wit="#C">se</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #H #R">ne coustera</rdg>
+      <rdg wit="#C">Dammeldieu</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #H #R">tant</rdg>
+      <rdg wit="#C">m'avient</rdg>
+      </app>
+      </l>
+      
+      
+      <l n="3">
+      <app type="omission">
+      <rdg wit="#B #T #H #R">Ses deux mains</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #R">
+      <app type="lexical">
+      <rdg wit="#B #R #T">blanches</rdg>
+      <rdg wit="#H">beles</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #R">
+      <app type="omission">
+      <rdg wit="#B #R">se tost</rdg>
+      <rdg wit="#H">se ele</rdg>
+      <rdg wit="#T">se</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #R">
+      <app type="lexical">
+      <rdg wit="#B #R #H">de pain</rdg>
+      <rdg wit="#T">a menger</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+       <app type="omission">
+      <rdg wit="#B #T #H #R">n'avoit</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="4">
+      
+      <app type="lexical">
+      <rdg wit="#B #T #H #R">Deu</rdg>
+      <rdg wit="#C">Las</rdg>
+      </app>
+      
+      
+      
+      <app type="grammatical">
+      <rdg wit="#C #H #R">je</rdg>
+      <rdg wit="#B #T">or</rdg>
+      </app>
+      
+      
+      
+      <app type="lexical">
+      <rdg wit="#B #T #H #R">doit</rdg>
+      <rdg wit="#C">soit</rdg>
+      </app>
+      </l>
+      
+      
+      
+      
+      <l n="5">
+      
+      <app type="lexical">
+      <rdg wit="#B #T #H">dame</rdg>
+      <rdg wit="#C #R">fame</rdg>
+      </app>
+      
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #R">a</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #C #R"></rdg>
+      <rdg wit="#H">tel</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #H #R">destroit</rdg>
+      <rdg wit="#C">orendroit</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="6">
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R">A ce que</rdg>
+      <rdg wit="#H">Si com</rdg>
+      <rdg wit="#C">Quoique</rdg>
+      </app>
+      
+      
+      <app type="lexical">
+      <rdg wit="#B #T #C #R">einsi</rdg>
+      <rdg wit="#H">iloc</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #H #R">se dementoit</rdg>
+      <rdg wit="#C">se gaimentoit</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="7">
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #H #R">
+      <app type="morphologique">
+      <rdg wit="#B #T #H">Vit</rdg>
+      <rdg wit="#R">Voit</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">Devers</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #H #R">un garcon</rdg>
+      <rdg wit="#C">Baiviere</rdg>
+      </app>
+      
+      <app type="syntaxique">
+      <rdg wit="#B #T #H #R">qui</rdg>
+      <rdg wit="#C">venoit</rdg>
+      </app>
+      
+     
+     
+      <app type="grammatical">
+      <rdg wit="#B #T #H #R">
+      <app type="lexical">
+      <rdg wit="#B #T #H">aloit</rdg>
+      <rdg wit="#R">venoit</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">droit</rdg>
+      </app>
+      </l>
+      
+      
+      
+      <l n="8">
+      
+      <app type="omission">
+      <rdg wit="#B #C #R #T"></rdg>
+      <rdg wit="#H">Et</rdg>
+      </app>
+      
+      
+      <app type="lexicale">
+      <rdg wit="#B #T #R">hurte</rdg>
+      <rdg wit="#H #C">huce</rdg>
+      </app>
+      
+      <app type="lexicale">
+      <rdg wit="#B #T #R">
+      <app type="graphique">
+      <rdg wit="#B #T">si tost</rdg>
+      <app type="#H #R">tantost</app>
+      </app>
+      </rdg>
+      <rdg wit="#C">quant</rdg>
+      </app>
+      
+      
+      <app type="omission">
+      <rdg wit="#B #H #R #T">comme</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      <l n="9">
+      
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R">fait</rdg>
+      <rdg wit="#H #C">dist</rdg>
+      </app>
+      
+      
+      <app type="omission">
+      <rdg wit="#B #H #R #T">tout</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">je</rdg>
+      <rdg wit="#C">nus</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">convoit</rdg>
+      <rdg wit="#C">convenoit</rdg>
+      </app>
+      </l>
+      
+      
+      
+      
+      <l n="10">
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">broche</rdg>
+      <rdg wit="#C">point</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="11">
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #C">Vers le</rdg>
+      <rdg wit="#H">Droit au</rdg>
+      </app>
+      
+      
+      <app type="morphologique">
+      <rdg wit="#B #T #R #H">a</rdg>
+      <rdg wit="#C">avoit</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #R">tost</rdg>
+      <rdg wit="#H">il</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      
+      <app type="lexical">
+      <rdg wit="#H #T #R #C">son main</rdg>
+      <rdg wit="#B">sa main</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="12">
+     <app type="lexical">
+      <rdg wit="#B #R #H #T">
+      <app type="morphologique">
+      <rdg wit="#B #R #T">vient</rdg>
+      <rdg wit="#H">vint</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">vait</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #R #H #T">
+      <app type="lexical">
+      <rdg wit="#B #R #H">poignant</rdg>
+      <rdg wit="#T">brochant</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">tout droit</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #C">parmi</rdg>
+      <rdg wit="#H">trestot</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="13">
+      <rdg wit="#B #C #H #R #T">Amis</rdg>
+      
+      <app type="omission">
+      <rdg wit="#B #C #H #T">
+      <app type="lexical">
+      <rdg wit="#B #T #H">dist il</rdg>
+      <rdg wit="#C">fait il</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#R"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #C #R">pour Deu</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #C #H"></rdg>
+      <rdg wit="#R">car me</rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #T #R #C">vent</rdg>
+      <rdg wit="#H">vendes</rdg>
+      </app>
+      </l>
+      
+      
+      <l n="14">
+      <app type="omission">
+      
+      <rdg wit="#B #R #T #C">
+      <app type="grammatical">
+      <rdg wit="#B #R #T">Ne</rdg>
+      <rdg wit="#C">Je ne</rdg>
+      </app>
+      <rdg wit="#B #R #T #C">vous</rdg>
+      <app type="lexical">
+      <rdg wit="#B #R #T">ruis</rdg>
+      <rdg wit="#C">quier</rdg>
+      </app>
+      <rdg wit="#B #R #T #C">ne argent ne</rdg>
+      
+      <app type="lexical">
+      <rdg wit="#B #R #C">estain</rdg>
+      <rdg wit="#T">arain</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="15">
+      <app type="grammatical">
+      <rdg wit="#B #R #T #H">Ains</rdg>
+      <rdg wit="#C">Je</rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #R #C">donrai</rdg>
+      <rdg wit="#T #H">doins</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="16">
+      <app type="omission">
+      <rdg wit="#B #H #R #T">Ne fust si lies qui li donast chartain</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      <l n="17">
+      
+      <app type="lexical">
+      <rdg wit="#B #H #R #T">Au vaslet</rdg>
+      <rdg wit="#C">Au garcon</rdg>
+      </app>
+      
+      
+      <app type="lexical">
+      <rdg wit="#H #R #T">pelice grise</rdg>
+      <rdg wit="#B">grant jupe grise</rdg>
+      <rdg wit="#C">grant chape grise</rdg>
+      </app>
+      </l>
+      
+      
+      
+      <l n="18">
+      <app type="omission">
+      <rdg wit="#B #H #T #C">Et .I. marc d’or</rdg>
+      <rdg wit="#R"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#R"></rdg>
+      
+      <rdg wit="#B #H #T #C">
+      <app type="sémantique">
+      <rdg wit="#B #H #T">
+      <app type="lexical">
+      <rdg wit="#B #T">n'en ot meillor</rdg>
+      <rdg wit="#H">n'i ot si bon</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">qu'il apporta</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="19">
+     
+     <app type="syntaxique">
+     <rdg wit="#B #T #H #R">longue</rdg>
+     <rdg wit="#C">faire</rdg>
+     </app>
+     
+     <app type="lexical">
+     <rdg wit="#B #T #H #R">devisee</rdg>
+     <rdg wit="#C">devise</rdg>
+     </app>
+      </l>
+      
+      <l n="20">
+      <app type="lexical">
+      <rdg wit="#B #H #R #T">Ariere</rdg>
+      <rdg wit="#C">Et</rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #H #R #T">vint</rdg>
+      <rdg wit="#C">vient</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #H #R #T">
+      <app type="morphologique">
+      <rdg wit="#B #R #T">les</rdg>
+      <rdg wit="#H">deles</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">ariere</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="21">
+      
+      <app type="sémantique">
+      
+      <rdg wit="#B #R #T">
+       <app type="morphologique">
+       <rdg wit="#B #R">Il prist</rdg>
+       <rdg wit="#T">Il prent</rdg>
+       </app>
+       </rdg>
+      <rdg wit="#C">Et</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T">le pain</rdg>
+      <rdg wit="#C">un marc d'or</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T">le brise</rdg>
+      <rdg wit="#C">de Frise</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="22">
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T">poing mise</rdg>
+      <rdg wit="#C">piece promise</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="23">
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #C">L'autre a sa</rdg>
+      <rdg wit="#H">Et a sa</rdg>
+      </app>
+      
+     <app type="lexica;">
+      <rdg wit="#H #T #C">mere</rdg>
+      <rdg wit="#B #R">dame</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #C">qui de faim</rdg>
+      <rdg wit="#H">qui l'aime</rdg>
+      </app>
+      
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #C">
+      <app type="morphologique">
+      <rdg wit="#T">fu</rdg>
+      <rdg wit="#B #R #C">
+      <app type="graphique">
+      <rdg wit="#B #R">ert</rdg>
+      <rdg wit="#C">iert</rdg>
+      </app>
+      </rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H">sans</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #C">aquise</rdg>
+      <rdg wit="#H">faintise</rdg>
+      </app>
+      
+      </l>
+      
+      
+      <l n="23">
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #H">
+      
+      <app type="syntaxique">
+      <rdg wit="#B #T #R">qui plains
+      <app type="morphologique">
+      <rdg wit="#B #R">ert</rdg>
+      <rdg wit="#T">est</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H">qui fu plains</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">qui l'ot</rdg>
+      </app>
+      
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #H">de franchise</rdg>
+      <rdg wit="#C">a terre mise</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="24">
+      <app type="lexical">
+      <rdg wit="#B #R #T">Le fist</rdg>
+      <rdg wit="#C">Cortoisement</rdg>
+      <rdg wit="#H">Trova</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #R #T">descendre</rdg>
+      <rdg wit="#C">a l’unne</rdg>
+      <rdg wit="#H">le dame</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #R #T">deles</rdg>
+      <rdg wit="#C">et l’autre</rdg>
+      <rdg wit="#H">le fu</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #R #T">une falise</rdg>
+      <rdg wit="#C #H">assise</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="25">
+      <app type="lexical">
+      <rdg wit="#B #R #T">Andeus</rdg>
+      <rdg wit="#C">A tant</rdg>
+      <rdg wit="#H">Ele</rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #R #T #C">menjuent</rdg>
+      <rdg wit="#H">manjoit</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #R #T">michete</rdg>
+      <rdg wit="#H #C">miche</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #H">bise</rdg>
+      <rdg wit="#R #C #T">alise</rdg>
+      </app>
+      </l>
+      
+      
+      
+      
+      <l n="26">
+      <rdg wit="#B #R #T #C #H">Tant que chascunne</rdg>
+      
+      <app type="morphologique">
+      <rdg wit="#B #T #C">a</rdg>
+      <rdg wit="#H #R">ot</rdg>
+      </app>
+      </l>
+      
+      
+      
+      
+      <l n="27">
+      
+      <app type="omission">
+      <rdg wit="#C">Et</rdg>
+      <rdg wit="#B #T #H #R"></rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #T #H #R">boivent</rdg>
+      <rdg wit="#C">burent</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #H #R">
+      <app type="sémantique">
+      <rdg wit="#B">qui ert clere a devise</rdg>
+      <rdg wit="#T #H #R">qui clere est a devise</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">qui venoit de tamise</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      
+      <l n="28">
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #R">A coupe d’or</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #R">
+      <app type="sémantique">
+      <rdg wit="#R">qui sort les la fallise</rdg>
+      <rdg wit="#B #T #H">de l’ovre de lutise</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="29">
+      <rdg wit="#B #T #H #R #C">Dist Seneheut</rdg>
+      
+     <app type="lexical">
+     <rdg wit="#B #T #H #R">mieus vaut</rdg>
+     <rdg wit="#C">moult vaut</rdg>
+     </app>
+      
+     <app type="lexical">
+     <rdg wit="#B #T #H #R">or</rdg>
+     <rdg wit="#C">mieus</rdg>
+     </app>
+      
+      </l>
+      
+      
+      
+      <l n="30">
+      
+      <app type="omission">
+      <rdg wit="#B #T#R #C">Que cent</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T#R #C">
+      <app type="lexical">
+      <rdg wit="#B #T #R">mars</rdg>
+      <rdg wit="#C">mille</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R">d'or</rdg>
+      <rdg wit="#C">livres</rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #T #R">en</rdg>
+      <rdg wit="#C">ou</rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R">un</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      </rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T#R #C">pan de</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T#R #C">
+      <app type="omission">
+     <rdg wit="#B #T #R">chemise</rdg>
+      <rdg wit="#C">ma chemise</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      
+      </l>
+      
+      
+      
+      <l n="31">
+     <rdg wit="#B #T#R #C #H">L'empereris</rdg>
+     
+     <app type="syntaxique">
+     <rdg wit="#B #T#R #H">s'en est de joie rise</rdg>
+     <rdg wit="#C">de joie s'en est rise</rdg>
+     </app>
+      
+      </l>
+      
+      
+      <l n="32">
+      <rdg wit="#B #T#R #C #H">A chascune est la</rdg>
+      
+      
+     <app type="lexical">
+     <rdg wit="#B #T#R #H">color</rdg>
+     <rdg wit="#C">face</rdg>
+     </app>
+     
+     <app type="lexical">
+     <rdg wit="#B #T#R #H">si</rdg>
+     <rdg wit="#C">bien</rdg>
+     </app>
+     
+     <rdg wit="#B #T#R #C #H">rasise</rdg>
+     
+      </l>
+      
+      
+      
+     <l n="33">
+     <app type="omission">
+     <rdg wit="#B #T#R #H"></rdg>
+     <rdg wit="#C">Que</rdg>
+     </app>
+      
+      <rdg wit="#B #T#R #C #H">plus sont</rdg>
+      
+     <app type="lexical">
+     <rdg wit="#B #T#R #H">vermeilles</rdg>
+     <rdg wit="#C">rouges</rdg>
+     </app>
+     
+     <app type="grammatical">
+     <rdg wit="#B #T#R #H">que rose ne</rdg>
+     <rdg wit="#C">que n'est mie</rdg>
+     </app>
+     
+      </l>
+      
+      
+      
+      <l n="34">
+       <app type="omission">
+     <rdg wit="#B #T#R #H"></rdg>
+     <rdg wit="#C">Et Auberis qui avoit chape grise</rdg>
+     </app>
+      </l>
+      
+      
+      
+      <l n="35">
+      
+      <app type="omission">
+      <rdg wit="#H #T"></rdg>
+      
+      <rdg wit="#B #C #R">
+      <app type="lexical">
+      <rdg wit="#B #T">Entre</rdg>
+      <rdg wit="#C">Sor</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #T">ses bras</rdg>
+      <rdg wit="#C">un mulet</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T">seur</rdg>
+      <rdg wit="#C">l'a</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T">le mulet l'a</rdg>
+      <rdg wit="#C">maintenant</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T">mise</rdg>
+      <rdg wit="#C">assise</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="36">
+      
+      <app type="omission">
+      <rdg wit="#H #T"></rdg>
+      <rdg wit="#B #C #R">Et Gascelin</rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#H #T"></rdg>
+      <rdg wit="#B #C #R">
+      
+      <app type="lexical">
+      <rdg wit="#B #R">
+      <app type="graphique">
+      <rdg wit="#B">a</rdg>
+      <rdg wit="#R">i a</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">s'ira</rdg>
+      </app>
+      
+      <rdg wit="#B #R #C">Seneheut</rdg>
+      
+      <app type="lexical">
+      <rdg wit="#B #R">
+      <app type="graphique">
+      <rdg wit="#B">assise</rdg>
+      <rdg wit="#R">rassise</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">mise</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="38">
+      <app type="omission">
+      
+      <rdg wit="#H #T"></rdg>
+      
+      <rdg wit="#B #C #R">
+      
+      <app type="lexical">
+      <rdg wit="#B #C">Sor un</rdg>
+      <rdg wit="#R">El</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #C">mulet</rdg>
+      <rdg wit="#R">palefroi</rdg>
+      </app>
+      
+      <app type="syntaxique">
+      <rdg wit="#B #R">ont lor</rdg>
+      <rdg wit="#C">et lor</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #R">voie</rdg>
+      <rdg wit="#C">oire</rdg>
+      </app>
+      
+      
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="39">
+      <app type="omission">
+      <rdg wit="#H"></rdg>
+      
+      <rdg wit="#B #C #R #T">
+      <app type="lexical">
+      <rdg wit="#B #R #T">Li Bourgoins</rdg>
+      <rdg wit="#C">Auberis</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="40">
+      
+      <app type="lexical">
+      
+      <rdg wit="#B #T #H #R">
+      <app type="morphologique">
+      <rdg wit="#B #T #R">chevaucherent</rdg>
+      <rdg wit="#H">chevauche</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">s'en vont</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R">une gaudine</rdg>
+      <rdg wit="#C">a devise</rdg>
+      <rdg wit="#H">le roche bise</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="41">
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #R #H">Et</rdg>
+      <rdg wit="#C">Enz</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #R #H">regarda</rdg>
+      <rdg wit="#C">en un val</rdg>
+      </app>
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #R #H">
+      <app type="lexical">
+      <rdg wit="#B #T #R">deles un</rdg>
+      <rdg wit="#H">dejoste un</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">a un</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">bois</rdg>
+      <rdg wit="#C">monstier</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">foilli</rdg>
+      <rdg wit="#C">choisi</rdg>
+      </app>
+      </l>
+      
+      
+      
+      <l n="42">
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">Ens</rdg>
+      <rdg wit="#C">Et</rdg>
+      </app>
+      
+      <app type="syntaxique">
+      <rdg wit="#B #T #R #H">en un val</rdg>
+      <rdg wit="#C">regarda</rdg>
+      </app>
+     
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">a un</rdg>
+      <rdg wit="#C">parmi un</rdg>
+      </app>
+      
+     <app type="lexical">
+      <rdg wit="#B #T #R #H">moustier</rdg>
+      <rdg wit="#C">gaut</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R #H">choisi</rdg>
+      <rdg wit="#C">foilli</rdg>
+      </app>
+     
+      </l>
+      
+      
+      
+      
+      <l n="43">
+      <rdg wit="#B #T #R #H #C">I. saint hermite</rdg>
+      
+      <app type="syntaxique">
+      
+      <rdg wit="#B #T #R #H">
+      <app type="morphologique">
+      <rdg wit="#R #H">qui</rdg>
+      <rdg wit="#B #T">que</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C"></rdg>
+      
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R">ot</rdg>
+      <rdg wit="#C">i</rdg>
+      <rdg wit="#H"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R">
+      <app type="lexical">
+      <rdg wit="#R">tant</rdg>
+      <rdg wit="#B #T">moult</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C #H"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="44">
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #R #C">conversa bien
+      <app type="graphique">
+      <rdg wit="#C #T">.VII.</rdg>
+      <rdg wit="#B #R">.XV.</rdg>
+      </app>
+      et demi</rdg>
+      
+      <rdg wit="#H">Manoit laiens de veré le vos di</rdg>
+      </app>
+      
+      
+      </l>
+      
+      
+      
+      <l n="45">
+      <rdg wit="#B #T #R #C #H">Que me dones ostel</rdg>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R #H">par</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="morphologique">
+      <rdg wit="#B #T #R #H">vo</rdg>
+      <rdg wit="#C">vostre</rdg>
+      </app>
+      <rdg wit="#B #T #R #C #H">merci</rdg>
+      </l>
+      
+      
+      
+      <l n="46">
+      
+      <app type="omission">
+      <rdg wit="#B #T #R #H">Moi et ma gent qui ci sont</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R #H">
+      <app type="grammatical">
+      <rdg wit="#B #T #H">avec mi</rdg>
+      <rdg wit="#R">avanci</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      
+      
+      <l n="47">
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T #H">Vers la chapele</rdg>
+      <rdg wit="#C">Li sains hermites</rdg>
+      </app>
+      
+      
+      <app type="sémantique">
+      
+      <rdg wit="#B #R #T #H">
+      <app type="syntaxique">
+      <rdg wit="#B #R #T">
+      <app type="lexical">
+      <rdg wit="#B #R">parmi</rdg>
+      <rdg wit="#T">par devers</rdg>
+      </app>
+      </rdg>
+      <rdg wi="#H">commenca</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">estoit</rdg>
+      </app>
+      
+      
+      <app type="sémantique">
+      <rdg wit="#B #R #T">
+      <app type="sémantique">
+      <rdg wit="#B #R">
+      <app type="lexical">
+      <rdg wit="#B">un bois plenier</rdg>
+      <rdg wit="#R">le gaut plenier</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#T">le mostier</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H">a errer di</rdg>
+      <rdg wit="#C">en son moustier</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      <l n="48">
+      
+      <app type="omission">
+      <rdg wit="#B #T #H #C">
+      <app type="sémantique">
+      <rdg wit="#B #T #H">Li saint hermites estoit en son mostier</rdg>
+      <rdg wit="#C">Vers la chapelle parmi le bois plennier</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#R"></rdg>
+      </app>
+      
+      </l>
+      
+      
+      <l n="49">
+      <app type="omission">
+      <rdg wit="#B #T #H #R"></rdg>
+      <rdg wit="#C">Pour toutes armes dont li cors sont entier</rdg>
+      </app>
+      </l>
+      
+      
+      <l n="50">
+      <app type="omission">
+      <rdg wit="#B #T #H #R"></rdg>
+      <rdg wit="#C">Es cymentieres que dex li droituriers</rdg>
+      </app>
+      </l>
+      
+      <l n="51">
+      <app type="omission">
+      <rdg wit="#B #T #H #R"></rdg>
+      <rdg wit="#C">Si les feist avec soi harbergier</rdg>
+      </app>
+      </l>
+      
+      
+      <l n="52">
+      <app type="omission">
+      <rdg wit="#B #T">Vers la chapele prennent a</rdg>
+      <rdg wit="#C #H #R"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T">
+      <app type="lexical">
+      <rdg wit="#B">adrechier</rdg>
+      <rdg wit="#T">chevauchier</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C #H #R"></rdg>
+      </app>
+      </l>
+      
+      
+      
+      <l n="53">
+      <rdg wit="#B #T #H #R #C">Et la roine</rdg>
+      
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #R #C">
+      
+      <app type="grammatical">
+      <rdg wit="#B #T #C">au</rdg>
+      <rdg wit="#R">o le</rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T">franc</rdg>
+      <rdg wit="#R #C"></rdg>
+      </app>
+      
+      coraige
+      
+      <app type="lexical">
+      <rdg wit="#B #T #C">entier</rdg>
+      <rdg wit="#R">fier</rdg>
+      </app>
+      
+      </rdg>
+      
+      <rdg wit="#H">ou moult se pot fier</rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      
+      
+      
+     <l n="54">
+     
+     <rdg wit="#B #T #H #R #C">Devant la porte descendent</rdg>
+     
+     <app type="sémantique">
+     <rdg wit="#B #T #R #H">
+     <app type="lexical">
+     <rdg wit="#B #R #H">sus</rdg>
+     <rdg wit="#T">en</rdg>
+     </app>
+     </rdg>
+     <rdg wit="#C">sans</rdg>
+     </app>
+     
+     
+     <app type="sémantique">
+     <rdg wit="#B #R #T #H">l'erbier</rdg>
+     <rdg wit="#C">targier</rdg>
+     </app>
+     
+     </l>
+      
+      
+      
+      <l n="55">
+      <app type="omission">
+      <rdg wit="#B #H #T #C">Que la dedens se</rdg>
+      <rdg wit="#R"></rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #H #T #C">
+      <app type="morphologique">
+      <rdg wit="#B #T">voelent</rdg>
+      <rdg wit="#H #C">voldront</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#R"></rdg>
+      </app>
+      
+      
+      <app type="omission">
+      <rdg wit="#B #H #T #C">herbergier</rdg>
+      <rdg wit="#R"></rdg>
+      </app>
+      </l>
+      
+      
+      <l n="58">
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #H #R">Fiert</rdg>
+      <rdg wit="#C">Gascelins</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #H #R">a la porte</rdg>
+      <rdg wit="#C">vint</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #H #R">d'un</rdg>
+      <rdg wit="#C">a la</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #H #R">
+      <rdg wit="lexical">
+      <rdg wit="#B #T #R">maillet</rdg>
+      <rdg wit="#H">grant mal</rdg>
+      </rdg>
+      </rdg>
+      <rdg wit="#C">porte</rdg>
+      </app>
+      
+      <app type="sémantique">
+      <rdg wit="#B #T #H #R">
+      <rdg wit="lexical">
+      <rdg wit="#B #T #R">de pomier</rdg>
+      <rdg wit="#H">de meslier</rdg>
+      </rdg>
+      </rdg>
+      <rdg wit="#C">premiers</rdg>
+      </app>
+      </l>
+      
+      
+     <l n="59">
+     <app type="morphologique">
+     <rdg wit="#B #T #H #R">vient</rdg>
+     <rdg wit="#C">vint</rdg>
+     </app>
+     </l>
+     
+     
+     
+     
+     <l n="60">
+      <rdg wit="#B #T #H #R #C">A son</rdg>
+      
+      <app type="lexical">
+       <rdg wit="#B #T #C #R">seigneur</rdg>
+       <rdg wit="#H">serjant</rdg>
+      </app>
+      
+      <app type="morphologique">
+       <rdg wit="#B #T #H #R">se</rdg>
+       <rdg wit="#C">s'en</rdg>
+      </app>
+      
+      <app type="morphologique">
+       <rdg wit="#B #R">prent</rdg>
+       <rdg wit="#C">prinst</rdg>
+       <rdg wit="#T #H">prist</rdg>
+      </app>
+     
+      
+      <app type="lexical">
+       <rdg wit="#B #T #R">adrechier</rdg>
+       <rdg wit="#C #H">repairier</rdg>
+      </app>
+     
+     </l>
+      
+      
+      
+      
+      <l n="61">
+      <app type="lexical">
+       <rdg wit="#B #T #R #H">cuit</rdg>
+       <rdg wit="#C">croi</rdg>
+      </app>
+      
+      <app type="lexical">
+       <rdg wit="#B #T #R #C">vienent</rdg>
+       <rdg wit="#H">volent</rdg>
+      </app>
+      
+      <app type="lexical">
+       <rdg wit="#B #T #R #C">caiens</rdg>
+       <rdg wit="#H">ca dedens</rdg>
+      </app>
+      
+      <app type="syntaxique">
+       <rdg wit="#B #T #R #C">pour</rdg>
+       <rdg wit="#H"></rdg>
+      </app>
+      </l>
+      
+      
+      
+      <l n="62">
+      
+      <app type="syntaxique">
+      <rdg wit="#C">qui</rdg>
+      <rdg wit="#B #T #R #H">
+      <app type="lexical">
+      <rdg wit="#B #T #R">
+      <app type="graphique">
+      <rdg wit="#B #T">ne se</rdg>
+      <rdg wit="#R">n'i a</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H">et</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      
+      <rdg wit="sémantique">
+      <rdg wit="#C">moult fist a prisier</rdg>
+      <rdg wit="#H">respont sans noisier</rdg>
+      
+      <rdg wit="#B #T #R">
+      <app type="lexical">
+      <rdg wit="#B #T">vout atargier</rdg>
+      <rdg wit="#R">fait demourier</rdg>
+      </app>
+      </rdg>
+      </rdg>
+      
+      </l>
+      
+      
+      
+      
+      
+      <l n="63">
+      
+      <app type="lexical">
+      <rdg wit="#C">Au</rdg>
+      <rdg wit="#T #B">Jusqu'a</rdg>
+      <rdg wit="#H">Les</rdg>
+      <rdg wit="#R">Vint au</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#C #R">postis</rdg>
+      <rdg wit="#T #B">la porte</rdg>
+      <rdg wit="#H">portes</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#C #H #R">desverouillier</rdg>
+      <rdg wit="#T">atargier</rdg>
+      <rdg wit="#B">chevalier</rdg>
+      </app>
+      
+      
+      </l>
+      
+      
+      
+      
+      <l n="64">
+      <app type="sémantique">
+      <rdg wit="#H">Sares si sont serjant au chevalier</rdg>
+      
+      <rdg wit="#B #T #C #R">
+      
+      <app type="syntaxique">
+      <rdg wit="#B #T">Quant il
+      <app type="syntaxique">
+      <rdg wit="#B">les voit</rdg>
+      <rdg wit="#T">voit ceus</rdg>
+      </app>
+      </rdg>>
+      <rdg wit="#C #R">Les barrons
+      </rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R">voit</rdg>
+      <rdg wit="#C"></rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #T #R">
+      <app type="morphologique">
+      <rdg wit="#B #R">s'esprent</rdg>
+      <rdg wit="#T">s'esprist</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#C">prinst</rdg>
+      </app>
+      
+      <app type="omission">
+      <rdg wit="#B #T #R"></rdg>
+      <rdg wit="#C">forment</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="65">
+      <app type="sémantique">
+      <rdg wit="#C #R">Seigneur dist il ou devez chevaucher</rdg>
+      <rdg wit="#H">Volentiers sire cis n'i vout atargier</rdg>
+      
+      
+      <rdg wit="#B #T">
+      
+      <app type="sémantique">
+      <rdg wit="#B">Va ques gens estes</rdg>
+      <rdg wit="#H">Sire dist il</rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B">nel ne deves noier</rdg>
+      <rdg wit="#T">a celer ne vous quier</rdg>
+      </app>
+      
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="66">
+      <app type="omission">
+      <rdg wit="#T"></rdg>
+      
+      <rdg wit="#B #H #R #C">
+      
+      <app type="sémantique">
+      
+      
+      <rdg wit="#C #R">Bien a
+      <app type="graphique">
+      <rdg wit="#C">.V. ans</rdg>
+      <rdg wit="#R">.VII. ans</rdg>
+      </app>
+      
+      <app type="graphique">
+      <rdg wit="#C">n'en</rdg>
+      <rdg wit="#R">ne</rdg>
+      </app>
+      sui pas mensongier
+      </rdg>
+      
+      <rdg wit="#B">Et il responnent oil tot sans trichier</rdg>
+      <rdg wit="#H">Et si trova le laron droiturier</rdg>
+      </app>
+      
+      
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      <l n="67">
+      
+      <app type="omission">
+      
+      <rdg wit="#B #T"></rdg>
+      
+      <rdg wit="#C #H #R">
+      <app type="sémantique">
+      <rdg wit="#C #R">Ne vi mais home que moi et mon portier</rdg>
+      <rdg wit="#H">Cui d’entrer ens avoient desirier</rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      </l>
+      
+      
+      
+      
+      
+      <l n="68">
+      
+      <app type="sémantique">
+      <rdg wit="#B #T">
+      <app type="morphologique">
+      <rdg wit="#B">venommes</rdg>
+      <rdg wit="#T">venons</rdg>
+      </app>
+      </rdg>
+      <rdg wit="#H #C #R">
+      <app type="lexical">
+      <rdg wit="#H">requierent</rdg>
+      <rdg wit="#C #R"></rdg>
+      </app>
+      </rdg>
+      </app>
+      
+      <app type="lexical">
+      <rdg wit="#B #C #R #T">herbergier</rdg>
+      <rdg wit="#H">droiturier</rdg>
+      </app>
+      
+      </l>
+    
+    
+    </body>
+  </text>
+</TEI>
