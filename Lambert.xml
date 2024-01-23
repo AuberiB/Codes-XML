@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+         
+         
+         
+            <listWit>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>859</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+              <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>860</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               <witness xml:id="T">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bibliothèque nationale de France</settlement>
+                        <collection>fonds français</collection>
+                        <idno>24368</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+                
+                
+                <witness xml:id="R">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Vaticane</settlement>
+                        <collection>reg lat</collection>
+                        <idno>1461</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               
+               
+               
+               
+            </listWit>
+         </sourceDesc>
+    </fileDesc>
+      
+      
+      
+      
+   </teiHeader>
+   <text>
+      <body>
+        
+        
+        <p>
+        
+        
+        <l n="1">
+        
+        <app type="lexical">
+        <rdg wit="#B #T">renoncier</rdg>
+        <rdg wit="#R #C">plaidier</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        <l n="2">
+        
+        <app type="omission">
+        <rdg wit="#B #T"></rdg>
+        <rdg wit="#R #C">chançon a enforchier</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        <l n="3">
+        
+        <app type="lexical">
+        <rdg wit="#B #T">un</rdg>
+        <rdg wit="#R #C">cel</rdg>
+        </app>
+        
+        </l>
+        
+        
+         <l n="4">
+        
+        <app type="omission">
+        <rdg wit="#B #T #R">Roberres est et fors lerres proves</rdg>
+        <rdg wit="#C"></rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        <l n="5">
+        
+        <app type="omission">
+        <rdg wit="#B #T">Que dex de gloire vous doinst beneichon</rdg>
+        <rdg wit="#R #C"></rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        
+        <l n="6">
+        
+        <app type="omission">
+        <rdg wit="#B #T">Oir la doivent duc et prince et baron</rdg>
+        <rdg wit="#R #C"></rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        <l n="7">
+        
+        <app type="omission">
+        <rdg wit="#B #T">C’est d’Auberi le gentil Borgeignon</rdg>
+        <rdg wit="#R #C"></rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        
+        <l n="8">
+        
+        <app type="omission">
+        <rdg wit="#B #T">De Gasselin le nobile baron</rdg>
+        <rdg wit="#R #C"></rdg>
+        </app>
+        
+        </l>
+        
+        
+        <l n="9">
+        
+        <app type="lexical">
+        <rdg wit="#B #R">de grant renon</rdg>
+        <rdg wit="#C">dont je sai bien les non</rdg>
+        <rdg wit="#T">que nous vous nonmeron</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        
+        
+        
+        <l n="10">
+        
+        <app type="omission">
+        <rdg wit="#B #T #R"></rdg>
+        <rdg wit="#C">Nus hom n’i passe ne a gue ne a pont</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        <l n="11">
+        
+        <app type="omission">
+        <rdg wit="#B #T "></rdg>
+        <rdg wit="#R #C">quarrignon</rdg>
+        </app>
+        
+        </l>
+        
+        
+        <l n="12">
+        
+        <app type="omission">
+        <rdg wit="#B #T "></rdg>
+        <rdg wit="#R #C">Semois et Folon</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        <l n="13">
+        
+        <app type="omission">
+        <rdg wit="#C #T "></rdg>
+        <rdg wit="#R #B"> Plus bele dame ne puet nus donoier</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        <l n="14">
+        
+        <app type="lexical">
+        <rdg wit="#C #T ">
+        <app type="morphologique">
+       <rdg wit="#C">raiembre</rdg> 
+       <rdg wit="#T">raeint</rdg>
+        </app>
+        </rdg>
+        <rdg wit="#R">maine</rdg>
+        <rdg wit="#B"></rdg>
+        </app>
+        </l>
+        
+        
+        
+        
+        <l n="15">
+        
+        <app type="sémantique">
+        <rdg wit="#C #R ">
+        <app type="morphologique">
+       <rdg wit="#C">Tibert</rdg> 
+       <rdg wit="#R">Thibaud</rdg>
+        </app>
+        </rdg>
+        <rdg wit="#T #B">chevalier</rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        
+        <l n="16">
+        
+        <app type="omission">
+        <rdg wit="#C #R">La Roche Sanson</rdg>
+        <rdg wit="#B #T"></rdg>
+        </app>
+        
+        </l>
+        
+        
+        
+        
+        <l n="16">
+        
+        <app type="omission">
+        <rdg wit="#C #R">
+        <app type="morpholoqiue">
+       <rdg wit="#C">.XXX.M.</rdg> 
+       <rdg wit="#R">.X.M</rdg>
+        </app>
+        
+        </rdg>
+        <rdg wit="#B #T"></rdg>
+        </app>
+        
+        </l>
+        
+        </p>
+    </body>
+  </text>
+</TEI>
